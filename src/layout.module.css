@@ -1,0 +1,34 @@
+/* styles.css (o tu archivo de estilos preferido) */
+.navbar {
+    background-color: #000000; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    display: inline-block; /* Agregar esta propiedad */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar a {
+      margin: 10px 0;
+      display: block; /* Ajustar de nuevo para pantallas pequeñas */
+    }
+  }
+
+  
+  
